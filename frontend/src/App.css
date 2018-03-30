@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Mahee:300,400,700');
+
+body {
+  overflow: hidden;
+}
+
+.main {
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: 127px 127px 1fr 100px ;
+  grid-row-gap: 0;
+  grid-column-gap: 20px;
+  grid-template-rows: 10vh 1fr 10vh;
+  height: 100vh;
+}
+
+#user-display {
+  background: #9D50BB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  grid-column: 1 / 3;
+  grid-row: 1 / 4;
+}
+
+#connected-users {
+  color: #fcfcfc;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 20px;
+}
+
+#user-list {
+  color: #fcfcfc;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 1.6em;
+  font-weight: 300;
+  margin: 20px;
+}
+
+.user {
+  margin-top: 20px;
+}
+
+#message-area {
+  background-color: whitesmoke;
+  grid-column: 3 / 8;
+  grid-row: 1 / 3;
+  padding: 20px 0;
+}
+
+#controls {
+  border-radius: 50px;
+  background-color: #fff;
+  grid-column: 3;
+  grid-row: 3;
+  height: 60%;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#message-input {
+  background-color: transparent;
+  border: none;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 1.6em;
+  padding: 10px -40px 0 40px; /*it works but idk how*/
+  margin: 5px 0 0 10px;
+  height: 40px;
+  width: 95%;
+}
+
+#button-send {
+  background-color: #6E48AA;
+  border: none;
+  border-radius: 50%;
+  height: 60px;
+  grid-column: 4;
+  grid-row: 3;
+  width: 60px;
+  margin-top: 10px;
+}
+
+#icon-send {
+  padding: 5px;
+  width: 40px;
+}
+
+#chat-display {
+  /*display: flex;*/
+  height: 700px;
+  overflow: auto;
+  /*flex-direction: column-reverse;*/
+}
+
+.message {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 1.5em;
+  font-weight: 800;
+  background-color: #fff;
+  border-radius: 0 20px 20px;
+  padding: 20px;
+  margin: 10px;
+  width: 600px;
+}
+
+.fontweight400 {
+  font-weight: 400;
+}
+
+#sign-in {
+  border: none;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 1.6em;
+}
+
+#button-join {
+  color: white;
+  background-color: #6E48AA;
+  border: none;
+  height: 50px;
+}
+.scrollToDummyDiv {
+  float: left;
+  clear: both;
+}

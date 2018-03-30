@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Mahee:300,400,700');
+
+.r_main {
+  background: #9D50BB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #6E48AA, #9D50BB);
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  grid-row-gap: 0;
+  grid-column-gap: 20px;
+  grid-template-rows: 100px 1fr 100px;
+  height: 100vh;
+}
+.r_controls {
+  display: grid;
+  grid-row-gap: 10px;
+  grid-template-rows: 1fr 50px 1fr;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  grid-row: 2;
+  grid-column: 2;
+}
+.r_roomButtons {
+  margin-top: 55px;
+  text-align: center;
+  grid-row: 1;
+}
+.r_roomButtons button {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 36px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 36px -10px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 36px -10px rgba(0,0,0,0.75);
+  border: none;
+  font-family: 'Mukta Mahee', sans-serif;
+  color: #fff;
+  background-color: #9D50BB;
+  width: 150px;
+  margin: 20px;
+}
+.r_main button p {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 2.4em;
+  color: #fff;
+}
+#divider {
+  text-align: center;
+  grid-row: 2;
+}
+.r_newRooms {
+  grid-row: 3;
+  text-align: center;
+}
+.r_newRooms input {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 1.3em;
+  margin-top: 40px;
+  width: 400px;
+  height: 50px;
+}
+.r_newRooms button {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 36px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 36px -10px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 36px -10px rgba(0,0,0,0.75);
+  font-size: 1.3em;
+  border: none;
+  font-family: 'Mukta Mahee', sans-serif;
+  color: #fff;
+  background-color: #9D50BB;
+  width: 150px;
+  margin: 40px;
+}
